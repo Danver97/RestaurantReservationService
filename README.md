@@ -14,6 +14,6 @@ This choice brought me to use CQRS: since the data data schema wasn't clear, usi
 
 In order to mantain business logic separated by everything else the Onion pattern was followed.
 
-The final step is getting everything running on AWS.
+Now, in the final step, I'm getting everything running on AWS.
 
 ![AWS Microservice Architecture](https://github.com/Danver97/TheForkReplica/blob/master/Microservice%20Architecture.svg)
