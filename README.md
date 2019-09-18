@@ -30,4 +30,4 @@ The SNS Topic sends events to every SQS queue is subscribed to it. Every compone
 For easier maintenance every *Denormalizer* is a Lamda function that process SQS queue messages.
 
 
-![AWS Microservice Architecture](https://github.com/Danver97/TheForkReplica/blob/master/Microservice%20Architecture.svg)
+[comment]: <![AWS Microservice Architecture](https://github.com/Danver97/TheForkReplica/blob/master/Microservice%20Architecture.svg)>
