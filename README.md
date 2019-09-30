@@ -1,5 +1,6 @@
 # RestaurantReservationService
-A microservice system that handles restaurant reservations from users to restaurant owners.
+A microservice system that handles restaurant reservations from users to restaurant owners.  
+A small demo **Flutter client** has been developed [here](https://github.com/Danver97/RistoCustomer).
 
 For now it's composed of three microservices:
 - [restaurant-catalog-service](https://github.com/Danver97/restaurant-catalog-service) **DEPLOYED**
