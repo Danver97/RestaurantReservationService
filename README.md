@@ -5,10 +5,17 @@ A small demo **Flutter client** has been developed [here](https://github.com/Dan
 For now it's composed of three microservices:
 - [restaurant-catalog-service](https://github.com/Danver97/restaurant-catalog-service) **DEPLOYED**
 - [reservation-service](https://github.com/Danver97/reservation-service) **DEPLOYED**
-- [user-service](https://github.com/Danver97/user-service) **WORKING**
+- [auth-service](https://github.com/Danver97/auth-service) **WORKING**
 
 The main focus of the project was on the infrastructure. In particular a big attention was dedicated on the scalabilty of the system.
 Every microservice uses a library developed for [event sourcing](https://github.com/Danver97/eventSourcing), which implements Event Store and Event Broker interfaces.
+
+For more info on the architecture see the following articles:
+- [Event Sourcing + CQRS: from theory to AWS — part 1](https://medium.com/@chri.pae/event-sourcing-cqrs-from-theory-to-aws-part-1-cb5134a035d5?source=friends_link&sk=aaf1d0d5ddb4ab875cc6532d75c39fde)
+- [Event Sourcing + CQRS: from theory to AWS — part 2](https://medium.com/@chri.pae/event-sourcing-cqrs-from-theory-to-aws-part-2-50f126014d91?source=friends_link&sk=71ecc5c07e775018d56332c3c8abf2e5)
+- [Event Sourcing + CQRS: from theory to AWS — part 3](https://medium.com/@chri.pae/event-sourcing-cqrs-from-theory-to-aws-part-3-87172efa3971?source=friends_link&sk=17acf8fbdc7b77630420c285c0f12881)
+
+Here's a summary of it:
 
 ## The Design
 
