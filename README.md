@@ -1,7 +1,6 @@
 # RestaurantReservationService
 A microservice system that handles restaurant reservations from users to restaurant owners.  
-A small demo **Flutter client** has been developed [here](https://github.com/Danver97/RistoCustomer).  
-![RistoDemo2](https://user-images.githubusercontent.com/28715404/65910058-385c9000-e3ca-11e9-89e7-a4c0f424589e.gif)
+A small demo **Flutter client** has been developed [here](https://github.com/Danver97/RistoCustomer).
 
 For now it's composed of three microservices:
 - [restaurant-catalog-service](https://github.com/Danver97/restaurant-catalog-service) **DEPLOYED**
@@ -9,7 +8,8 @@ For now it's composed of three microservices:
 - [auth-service](https://github.com/Danver97/auth-service) **WORKING**
 
 The main focus of the project was on the infrastructure. In particular a big attention was dedicated on the scalabilty of the system.
-Every microservice uses a library developed for [event sourcing](https://github.com/Danver97/eventSourcing), which implements Event Store and Event Broker interfaces.
+Every microservice uses a library developed for [event sourcing](https://github.com/Danver97/eventSourcing), which implements Event Store and Event Broker interfaces.  
+![RistoDemo2](https://user-images.githubusercontent.com/28715404/65910058-385c9000-e3ca-11e9-89e7-a4c0f424589e.gif)
 
 For more info on the architecture see the following articles:
 - [Event Sourcing + CQRS: from theory to AWS — part 1](https://medium.com/@chri.pae/event-sourcing-cqrs-from-theory-to-aws-part-1-cb5134a035d5?source=friends_link&sk=aaf1d0d5ddb4ab875cc6532d75c39fde)
